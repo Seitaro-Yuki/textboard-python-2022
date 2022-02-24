@@ -1,0 +1,7 @@
+td.message-date {
+  white-space: nowrap;
+}
+
+td.message-body {
+  width: 100%;
+}

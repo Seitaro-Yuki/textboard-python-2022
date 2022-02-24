@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "textboard"
+version = "0.1.0"
+description = ""
+authors = ["Seitaro Yuki <seitaro_yuki@kadokawa.jp>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+SQLAlchemy = "^1.4"
+fastapi = "^0.74"
+uvicorn = {extras = ["standard"], version = "^0.17"}
+Jinja2 = "^3.0"
+aiofiles = "^0.8"
+python-multipart = "^0.0.5"
+
+[tool.poetry.dev-dependencies]
+pytest = "^7.0"
+flake8 = "^4.0"
+mypy = "^0.931"
+black = "^22.1"
+sqlalchemy-stubs = "^0.4"
+isort = "^5.10"
+beautifulsoup4 = "^4.10"
+requests = "^2.27"
+pep8-naming = "^0.12"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
